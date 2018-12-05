@@ -1,0 +1,91 @@
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title_1{
+    width: 100%;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 25px;
+
+}
+.title_1 h1,a{
+    display: inline-block;
+    color :black;
+    
+
+}
+.title_1 a{
+    font-size: 18px;
+    border-bottom:crimson 2px dotted;
+}
+.title_1 a:hover{
+    color: #F00;
+    font-size: 22px;
+    transition: all 500ms ease;
+
+}
+@media(max-width:360px){
+    .title_1 a{
+        font-size: 15px;
+        border-bottom:crimson 2px dotted;
+    }
+    .title_1{
+        font-size: 10px;
+    }
+    .btn-enviar{
+        width: 50%;
+        height: 5vh;
+        margin-top: 20px;
+        margin-bottom: 4vh;
+        
+    }
+    .btn-enviar:hover{
+        color:crimson;
+        background: white;
+        width: 100%; 
+        cursor: pointer;
+        font-size:25px; 
+    }
+
+
+}
+.field{
+ border-color:#F00;
+ width: 50%;
+ margin: auto;
+ margin-bottom: 25px;
+}
+.field legend{
+	text-align: left;
+}
+.content{
+	margin-left: 30px;
+}
+legend{
+	color: red;
+	font-size: 20px;
+}
+.btn-enviar{
+	background: crimson; 
+	text-decoration:none;
+	color: #fff;
+	width: 30%;
+	height: 5vh;
+	margin-top: 20px;
+	margin-bottom: 4vh;
+	
+}
+.btn-enviar:hover{
+    color:crimson;
+    background:black;
+    width: 50%;
+    cursor: pointer;
+    font-size:18px; 
+}
+.content h1{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.content select{
+    margin-bottom: 20px;
+}
